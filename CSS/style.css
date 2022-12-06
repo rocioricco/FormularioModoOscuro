@@ -1,0 +1,121 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #161717;
+    font-family:Helvetica, sans-serif, Arial;
+}
+.contenedorGeneral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.Imagen img{
+    width: 90px;
+    height: 20px;
+    background-color: #ffff;
+}
+.Titulo{
+    width: 416px;
+    height: 29px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+.Google img{
+    width: 20px;
+    height: 20px;
+}
+.Google{
+    display: flex;
+    padding: 3px 20px;
+    width: 250px;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 8px;
+    border: 0.5px solid black;
+}
+a{
+    text-decoration: none;
+    color: rgb(177, 172, 255);
+}
+.Twitter img{
+width: 50px;
+height: 50px;
+border-radius: 10px;
+}
+.redesSociales{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.lineas{
+    width: 190px;
+    height: 1px;
+    background-color: #fff;
+}
+.Or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+.formulario input{
+    background-color: #212121;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    width: 410px;
+}
+.formulario{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;
+    color: #fff;
+}
+.passwordForget{
+    display: flex;
+gap: 200px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+    font-weight: bold;
+    color: #ffff;
+    background-color: rgb(213, 83, 109);
+}
+.nuevoUsuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+.input:hover{
+    box-shadow: 0px 0px 10px rgba(245, 69, 69, 0.801);
+}
+.input:focus{
+    outline: 1px solid red;
+    background-color: #454045;
+    box-shadow: 0px 0px 10px rgba(245, 69, 69, 0.801);
+}
+button:hover{
+    background-color: rgb(215, 137, 152);
+}
+button:focus{
+    background-color: rgb(157, 48, 70);
+}
